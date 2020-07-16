@@ -51,7 +51,7 @@ wsl 1 설치 (2버전은 선택사항  cpu 가상화 지원시 해도 좋다.)
 ```
 설치완료시 vscode에서 ctrl+` 로 터미널창 띄우고 default shell WSL bash로 변경
 
- wsl home 디렉토리 window 경로 : \\wsl\$Ubuntu-18.04\home\username
+ wsl home 디렉토리 window 경로 : \\wsl$\Ubuntu-18.04\home\username
 
  wsl2 사용시 해당 경로에 올려야 속도도 정상적이고 파일 변경 이벤트가 문제없이 적용됨
 ```
