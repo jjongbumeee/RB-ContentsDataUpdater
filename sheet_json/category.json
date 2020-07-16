@@ -1,0 +1,1829 @@
+[
+    {
+        "id": 184,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/time-guide\/pregestational\/",
+        "name": "1\uc784\uc2e0\uc804",
+        "slug": "pregestational",
+        "taxonomy": "category",
+        "parent": 182,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/184"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/182"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=184"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=184"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 186,
+        "count": 1,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/time-guide\/early-pregnancy\/",
+        "name": "2\uc784\uc2e0\ucd08\uae30(1~3\uac1c\uc6d4)",
+        "slug": "early-pregnancy",
+        "taxonomy": "category",
+        "parent": 182,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/186"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/182"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=186"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=186"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 188,
+        "count": 1,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/time-guide\/midtrimester\/",
+        "name": "3\uc784\uc2e0\uc911\uae30 (4~8\uac1c\uc6d4)",
+        "slug": "midtrimester",
+        "taxonomy": "category",
+        "parent": 182,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/188"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/182"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=188"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=188"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 190,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/time-guide\/third-trimester\/",
+        "name": "4\uc784\uc2e0\ud6c4\uae30 (9~10\uac1c\uc6d4)",
+        "slug": "third-trimester",
+        "taxonomy": "category",
+        "parent": 182,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/190"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/182"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=190"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=190"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 192,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/time-guide\/childbirth\/",
+        "name": "5\ucd9c\uc0b0\uc900\ube44\ubb3c",
+        "slug": "childbirth",
+        "taxonomy": "category",
+        "parent": 182,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/192"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/182"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=192"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=192"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 194,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/time-guide\/postnatal\/",
+        "name": "6\uc0b0\ud6c4\uc870\ub9ac\uc6d0",
+        "slug": "postnatal",
+        "taxonomy": "category",
+        "parent": 182,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/194"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/182"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=194"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=194"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 196,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/time-guide\/newborn-baby\/",
+        "name": "7\uc2e0\uc0dd\uc544 \uc0dd\ud6c4 1\uac1c\uc6d4",
+        "slug": "newborn-baby",
+        "taxonomy": "category",
+        "parent": 182,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/196"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/182"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=196"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=196"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 198,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/time-guide\/baby\/",
+        "name": "8\uc601\uc544 (1~12\uac1c\uc6d4)",
+        "slug": "baby",
+        "taxonomy": "category",
+        "parent": 182,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/198"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/182"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=198"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=198"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 200,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/time-guide\/child\/",
+        "name": "9\uc720\uc544 (13~24\uac1c\uc6d4)",
+        "slug": "child",
+        "taxonomy": "category",
+        "parent": 182,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/200"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/182"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=200"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=200"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/audio-post\/",
+        "name": "Audio Post",
+        "slug": "audio-post",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/17"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=17"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=17"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "count": 4,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/fashion\/",
+        "name": "Fashion",
+        "slug": "fashion",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/18"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=18"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=18"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 19,
+        "count": 1,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/featured\/",
+        "name": "Featured",
+        "slug": "featured",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/19"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=19"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=19"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "count": 3,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/food-for-thought\/",
+        "name": "Food for thought",
+        "slug": "food-for-thought",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/20"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=20"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=20"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 21,
+        "count": 4,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/gaming\/",
+        "name": "Gaming",
+        "slug": "gaming",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/21"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=21"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=21"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 22,
+        "count": 1,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/quote\/",
+        "name": "Quote",
+        "slug": "quote",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/22"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=22"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=22"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 112,
+        "count": 4,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/terms\/",
+        "name": "Terms",
+        "slug": "terms",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/112"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=112"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=112"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 101,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/uncategorized-en\/",
+        "name": "Uncategorized",
+        "slug": "uncategorized-en",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/101"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=101"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=101"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "count": 1,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/video-post\/",
+        "name": "Video Post",
+        "slug": "video-post",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/23"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=23"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=23"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 210,
+        "count": 0,
+        "description": "\uac74\uac15\uc5d0 \ud544\uc694\ud55c \uc81c\ud488",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/health-food\/",
+        "name": "\uac74\uac15",
+        "slug": "health-food",
+        "taxonomy": "category",
+        "parent": 180,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/210"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/180"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=210"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=210"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 222,
+        "count": 1,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/hygiene\/diaper\/",
+        "name": "\uae30\uc800\uadc0",
+        "slug": "diaper",
+        "taxonomy": "category",
+        "parent": 208,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/222"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/208"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=222"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=222"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 1,
+        "count": 7,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/uncategorized\/",
+        "name": "\ubbf8\ubd84\ub958",
+        "slug": "uncategorized",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/1"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=1"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=1"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 228,
+        "count": 1,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/nursing\/dry-milk\/",
+        "name": "\ubd84\uc720",
+        "slug": "dry-milk",
+        "taxonomy": "category",
+        "parent": 204,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/228"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/204"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=228"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=228"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 234,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/credibility\/brand-story\/",
+        "name": "\ube0c\ub79c\ub4dc \uc2a4\ud1a0\ub9ac",
+        "slug": "brand-story",
+        "taxonomy": "category",
+        "parent": 232,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/234"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/232"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=234"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=234"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 206,
+        "count": 2,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/mother\/",
+        "name": "\uc0b0\ubaa8",
+        "slug": "mother",
+        "taxonomy": "category",
+        "parent": 180,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/206"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/180"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=206"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=206"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 204,
+        "count": 1,
+        "description": "\uc218\uc720\uc5d0 \ud544\uc694\ud55c \uc81c\ud488",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/nursing\/",
+        "name": "\uc218\uc720",
+        "slug": "nursing",
+        "taxonomy": "category",
+        "parent": 180,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/204"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/180"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=204"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=204"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 182,
+        "count": 0,
+        "description": "9\uac1c \uc2dc\uae30\ubcc4 \uac00\uc774\ub4dc",
+        "link": "https:\/\/readybaby.net\/category\/time-guide\/",
+        "name": "\uc2dc\uae30\ubcc4 \uac00\uc774\ub4dc",
+        "slug": "time-guide",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/182"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=182"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=182"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 232,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/credibility\/",
+        "name": "\uc571 \uc2e0\ub8b0\ub3c4 \uae00",
+        "slug": "credibility",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/232"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=232"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=232"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 216,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/health-food\/folic-acid\/",
+        "name": "\uc5fd\uc0b0",
+        "slug": "folic-acid",
+        "taxonomy": "category",
+        "parent": 210,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/216"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/210"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=216"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=216"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 202,
+        "count": 1,
+        "description": "\uc678\ucd9c\uc5d0 \ud544\uc694\ud55c \uc81c\ud488",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/a-leave-day\/",
+        "name": "\uc678\ucd9c",
+        "slug": "a-leave-day",
+        "taxonomy": "category",
+        "parent": 180,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/202"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/180"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=202"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=202"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 236,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/credibility\/guide-selection\/",
+        "name": "\uc6a9\ud488\uac00\uc774\ub4dc\uc120\uc815\ubc29\uc2dd",
+        "slug": "guide-selection",
+        "taxonomy": "category",
+        "parent": 232,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/236"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/232"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=236"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=236"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 218,
+        "count": 1,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/clothes\/baby-clothes\/",
+        "name": "\uc6b0\uc8fc\ubcf5",
+        "slug": "baby-clothes",
+        "taxonomy": "category",
+        "parent": 212,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/218"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/212"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=218"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=218"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 208,
+        "count": 1,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/hygiene\/",
+        "name": "\uc704\uc0dd",
+        "slug": "hygiene",
+        "taxonomy": "category",
+        "parent": 180,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/208"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/180"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=208"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=208"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 226,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/a-leave-day\/stroller\/",
+        "name": "\uc720\ubaa8\ucc28",
+        "slug": "stroller",
+        "taxonomy": "category",
+        "parent": 202,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/226"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/202"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=226"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=226"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 212,
+        "count": 1,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/clothes\/",
+        "name": "\uc758\ub958",
+        "slug": "clothes",
+        "taxonomy": "category",
+        "parent": 180,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/212"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/180"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=212"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=212"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 110,
+        "count": 4,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/%ec%9d%b4%ec%9a%a9%ec%95%bd%ea%b4%80\/",
+        "name": "\uc774\uc6a9\uc57d\uad00",
+        "slug": "%ec%9d%b4%ec%9a%a9%ec%95%bd%ea%b4%80",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/110"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=110"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=110"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 220,
+        "count": 2,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/mother\/a-maternity-dress\/",
+        "name": "\uc784\ubd80\ubcf5",
+        "slug": "a-maternity-dress",
+        "taxonomy": "category",
+        "parent": 206,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/220"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/206"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=220"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=220"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 238,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/credibility\/checklist-selection\/",
+        "name": "\uccb4\ud06c\ub9ac\uc2a4\ud2b8 \uc120\uc815\ubc29\uc2dd",
+        "slug": "checklist-selection",
+        "taxonomy": "category",
+        "parent": 232,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/238"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/232"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=238"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=238"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 224,
+        "count": 1,
+        "description": "",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/a-leave-day\/car-seat\/",
+        "name": "\uce74\uc2dc\ud2b8",
+        "slug": "car-seat",
+        "taxonomy": "category",
+        "parent": 202,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/224"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "up": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/202"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=224"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=224"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 180,
+        "count": 4,
+        "description": "25\uac1c\uc758 \uac00\uc774\ub4dc ",
+        "link": "https:\/\/readybaby.net\/category\/item-guide\/",
+        "name": "\ud488\ubaa9\ubcc4\uac00\uc774\ub4dc",
+        "slug": "item-guide",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories\/180"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/posts?categories=180"
+                },
+                {
+                    "href": "https:\/\/readybaby.net\/wp-json\/wp\/v2\/media?categories=180"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]
