@@ -84,3 +84,21 @@ git GUI Client (취향)
 mongodb atlas 연결 
 * https://moonsupport.tistory.com/262
 * https://docs.mongodb.com/manual/reference/method/js-collection/
+
+<hr>
+
+### Reference
+
+1. git, github
+    - https://ux.stories.pe.kr/182
+    - https://www.youtube.com/watch?v=YFNQwo7iTNc
+    - https://playinlion.tistory.com/30
+
+2. javascript, typescript
+    - https://opentutorials.org/course/743
+    - https://haviyj.tistory.com/3
+    - https://heropy.blog/2020/01/27/typescript/  
+
+3. lodash
+    - http://jeonghwan-kim.github.io/lodash/
+    - https://ithub.tistory.com/189
