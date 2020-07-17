@@ -1,5 +1,6 @@
 import _ from "lodash";
 import tagJSON from "../sheet_json/tag.json"; //이런 방식으로 export한 json 파일 import
+import { jsonFileWriter } from "./jsonwriter";
 import periodJSON from "../data/period.json";
 
 class OutputSample {
@@ -61,5 +62,7 @@ const sampleFunction = (tag: any[]) => {
     console.log(tmp);
     //break;
   }
+   jsonFileWriter("./", "output", outputArr);
+
 };
 sampleFunction(periodJSON);
