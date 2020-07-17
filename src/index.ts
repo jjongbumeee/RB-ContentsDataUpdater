@@ -1,6 +1,8 @@
 import _ from 'lodash';
+import { jsonFileWriter } from './jsonwriter';
 import tagJSON from '../sheet_json/tag.json';   //이런 방식으로 export한 json 파일 import
 import goodsJSON from '../data/goods.json';
+import dbdata from '../data/accountdata.json'
 let tmp: any[] = [ {id:123, name:'화'}, {id:123, name:'이'}, {id:123, name:'팅'}];
 class OutputSample{
     id: number;
@@ -59,5 +61,8 @@ const sampleFunction = (tag: any[]) => {     //화살표 함수
         //break;
     }
 
+    jsonFileWriter('./', 'output', outputArr);
+
 }
 sampleFunction(goodsJSON);
+
