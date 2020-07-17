@@ -56,7 +56,7 @@ const sampleFunction = (tag: any[]) => {     //화살표 함수
         
         outputArr.push(tmp);
         console.log(tmp);
-        break;
+        //break;
     }
 
 }
