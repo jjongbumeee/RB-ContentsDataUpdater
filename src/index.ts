@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import { jsonFileWriter } from './jsonwriter';
-import tagJSON from '../sheet_json/tag.json';   //이런 방식으로 export한 json 파일 import
 import goodsJSON from '../data/goods.json';
+import periodJSON from "../data/period.json";
 import dbdata from '../data/accountdata.json'
 class OutputSample{
     id: number;
@@ -31,16 +31,16 @@ class OutputSample{
 }
 
 //console.log(_.filter(tmp, _.matches({name:'화'}))); //lodash function
-const sampleFunction = (tag: any[]) => {     //화살표 함수
+const sampleFunction = (data: any[]) => {     //화살표 함수
     let outputArr: OutputSample[] = [];
     //console.log(_.filter(tag, _.matches({name: '유모차'}))) // 해당 tag array 내에서 name 값이 유모차인 값을 필터
 
-    for(let i in tag){
-        if(tag[i].category0 == null) continue;
+    for(let i in data){
+        if(data[i].category0 == null) continue;
         
         //tmp 값을 넣는 로직
-        let now = tag[i];
-        let content = {}, site = "", category = [180];
+        let now = data[i];
+        let content = {}, site = "", category = [], tags = [];
         if (now.site === "naver-blog") {
             content = { rendered: now.fullUrl, protected: false }
             site = "naver";
@@ -49,22 +49,27 @@ const sampleFunction = (tag: any[]) => {     //화살표 함수
             content = { rendered: now.embedHTML, protected: false };
             site = "youtube";
         }
+        category.push(now.category0);
         category.push(now.category1);
-        category.push(now.category2);
+        if(now.category2 != null)
+            category.push(now.category2);
+        if(now.Tag1 != null)
+            tags.push(now.Tag1);
+            
         let tmp = new OutputSample(now.category0, now.CreatedAt, now.UpdatedAt,
             site, now.fullUrl, {rendered: site +" "+ now.searchKeyword},
-            content, 0, category, [now.Tag1], now.thumbnailUrl);
+            content, 0, category, tags, now.thumbnailUrl);
         
         outputArr.push(tmp);
         console.log(tmp);
-        //break;
     }
-
-    jsonFileWriter('./', 'output', outputArr);
+    // TODO: if you want to File Output, erase this Annotation
+    //jsonFileWriter('./', 'output', outputArr);
 
 }
-sampleFunction(goodsJSON);
-
+sampleFunction(goodsJSON); //goods parsed data will be stored at outputArr
+sampleFunction(periodJSON); //period parsed data will be stored at outputArr
+/* TODO: mongoDB ATLAS connecting job
 const MongoClient = require("mongodb").MongoClient;
 const uri = "mongodb+srv://daniel:" + dbdata.password + 
 "@cluster0.qp0wy.mongodb.net/test?retryWrites=true&w=majority";
@@ -73,4 +78,4 @@ client.connect((err) => {
   const collection = client.db("test").collection("contents");
   // perform actions on the collection object
   client.close();
-});
+});*/
