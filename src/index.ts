@@ -3,7 +3,6 @@ import { jsonFileWriter } from './jsonwriter';
 import tagJSON from '../sheet_json/tag.json';   //이런 방식으로 export한 json 파일 import
 import goodsJSON from '../data/goods.json';
 import dbdata from '../data/accountdata.json'
-let tmp: any[] = [ {id:123, name:'화'}, {id:123, name:'이'}, {id:123, name:'팅'}];
 class OutputSample{
     id: number;
     date: string;
@@ -31,7 +30,7 @@ class OutputSample{
     }
 }
 
-console.log(_.filter(tmp, _.matches({name:'화'}))); //lodash function
+//console.log(_.filter(tmp, _.matches({name:'화'}))); //lodash function
 const sampleFunction = (tag: any[]) => {     //화살표 함수
     let outputArr: OutputSample[] = [];
     //console.log(_.filter(tag, _.matches({name: '유모차'}))) // 해당 tag array 내에서 name 값이 유모차인 값을 필터
@@ -66,3 +65,12 @@ const sampleFunction = (tag: any[]) => {     //화살표 함수
 }
 sampleFunction(goodsJSON);
 
+const MongoClient = require("mongodb").MongoClient;
+const uri = "mongodb+srv://daniel:" + dbdata.password + 
+"@cluster0.qp0wy.mongodb.net/test?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+client.connect((err) => {
+  const collection = client.db("test").collection("contents");
+  // perform actions on the collection object
+  client.close();
+});
