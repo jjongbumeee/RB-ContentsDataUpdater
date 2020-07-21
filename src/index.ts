@@ -29,12 +29,13 @@ class OutputSample{
         this.featured_image_src = featured_image_src;
     }
 }
-
+let goodsOutputArr: OutputSample[] = [];
+let periodOutputArr: OutputSample[] = [];
 //console.log(_.filter(tmp, _.matches({name:'화'}))); //lodash function
 const sampleFunction = (data: any[]) => {     //화살표 함수
-    let outputArr: OutputSample[] = [];
+    
     //console.log(_.filter(tag, _.matches({name: '유모차'}))) // 해당 tag array 내에서 name 값이 유모차인 값을 필터
-
+    let outputArr: OutputSample[] = [];
     for(let i in data){
         if(data[i].category0 == null) continue;
         
@@ -61,21 +62,32 @@ const sampleFunction = (data: any[]) => {     //화살표 함수
             content, 0, category, tags, now.thumbnailUrl);
         
         outputArr.push(tmp);
-        console.log(tmp);
+        //console.log(tmp);
     }
     // TODO: if you want to File Output, erase this Annotation
     //jsonFileWriter('./', 'output', outputArr);
-
+    return outputArr;
 }
-sampleFunction(goodsJSON); //goods parsed data will be stored at outputArr
-sampleFunction(periodJSON); //period parsed data will be stored at outputArr
-/* TODO: mongoDB ATLAS connecting job
+goodsOutputArr = sampleFunction(goodsJSON); //goods parsed data will be stored at outputArr
+periodOutputArr = sampleFunction(periodJSON);//sampleFunction(periodJSON); //period parsed data will be stored at outputArr
+
+ //TODO: mongoDB ATLAS connecting job
 const MongoClient = require("mongodb").MongoClient;
 const uri = "mongodb+srv://daniel:" + dbdata.password + 
 "@cluster0.qp0wy.mongodb.net/test?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
+/*
 client.connect((err) => {
-  const collection = client.db("test").collection("contents");
+  const collection = client.db("test").collection("goods");
   // perform actions on the collection object
-  client.close();
+  collection.insertMany(goodsOutputArr);
+  client.close();  
 });*/
+client.connect((err) => {
+    const goodsCollection = client.db("test").collection("goods");
+    const periodCollection = client.db("test").collection("period");
+    // perform actions on the collection object
+    periodCollection.insertMany(periodOutputArr);
+    goodsCollection.insertMany(goodsOutputArr);
+    client.close();
+});
