@@ -76,13 +76,7 @@ const MongoClient = require("mongodb").MongoClient;
 const uri = "mongodb+srv://daniel:" + dbdata.password + 
 "@cluster0.qp0wy.mongodb.net/test?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
-/*
-client.connect((err) => {
-  const collection = client.db("test").collection("goods");
-  // perform actions on the collection object
-  collection.insertMany(goodsOutputArr);
-  client.close();  
-});*/
+
 client.connect((err) => {
     const goodsCollection = client.db("test").collection("goods");
     const periodCollection = client.db("test").collection("period");
