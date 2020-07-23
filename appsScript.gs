@@ -13,7 +13,7 @@ function exportData() {
   
   for(var i = headerRows; i < numRows; i++) {
     //Logger.log(data[i][9]);
-    if(data[i][9] === null) continue; //category0
+    if(data[i][9] === "") continue; //category0
     
     let content = {}, site = "", category = [], tags = [];
     if (data[i][3] === "naver-blog") { //site
@@ -26,9 +26,9 @@ function exportData() {
     }
     category.push(data[i][9]);//category0
     category.push(data[i][10]);//category1
-    if(data[i][11] != null) //category2
+    if(data[i][11] != "") //category2
       category.push(data[i][11]);
-    if(data[i][17] != null) //Tag1
+    if(data[i][17] != "") //Tag1
       tags.push(data[i][17]);
     
     var formData = {
