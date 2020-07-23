@@ -46,6 +46,7 @@ function exportData() {
       'tags' : tags,
       'featured_image_src' : data[i][5] //thumbnailUrl
     }
-    Logger.log(formData);
+    var payload = JSON.stringify(formData);
+    Logger.log(payload);
   }
 }
