@@ -1,10 +1,22 @@
+/***
+* Implements a service that converts Google Spreadsheet to JSON
+* without Node.js
+* @author DanielJung(danieltiger60@gmail.com)
+***/
+
 var data;
+/***
+* Get number of index from column name
+* @param  {string} colName The name(first row data) of column
+* @return {number} col The converted number 
+***/
 function getCol(colName) {
   var col = data[0].indexOf(colName);
   if (col != -1) {
     return col;
   }
 }
+
 /***
 * Export data
 * @return {string} parsed JSON object 
