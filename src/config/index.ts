@@ -24,7 +24,8 @@ export default {
     url: process.env.EPICMOBILE_DEV_ATLAS_URL,
     db: process.env.EPICMOBILE_DEV_ATLAS_DATABASE,
     collectionProduct: process.env.EPICMOBILE_DEV_ATLAS_COLLECTION,
-    collectionPriceLog: process.env.EPICMOBILE_DEV_ATLAS_COLLECTION_PRODUCTLOG
+    collectionPriceLog: process.env.EPICMOBILE_DEV_ATLAS_COLLECTION_PRODUCTLOG,
+    collectionContents: process.env.EPICMOBILE_DEV_ATLAS_COLLECTION_CONTENTS
   },
   agenda: {
     dbCollection: process.env.MONGO_ATLAS_COLLECTION_TEST,

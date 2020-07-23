@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import config from './config';
 import { jsonFileWriter } from './jsonwriter';
 import goodsJSON from '../data/goods.json';
 import periodJSON from "../data/period.json";
@@ -73,15 +74,20 @@ periodOutputArr = sampleFunction(periodJSON);//sampleFunction(periodJSON); //per
 
  //TODO: mongoDB ATLAS connecting job
 const MongoClient = require("mongodb").MongoClient;
-const uri = "mongodb+srv://daniel:" + dbdata.password + 
-"@cluster0.qp0wy.mongodb.net/test?retryWrites=true&w=majority";
+const uri = config.epicDev.url;
+
+// const uri = "mongodb+srv://daniel:" + dbdata.password + 
+// "@cluster0.qp0wy.mongodb.net/test?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 
 client.connect((err) => {
-    const goodsCollection = client.db("test").collection("goods");
-    const periodCollection = client.db("test").collection("period");
+   // const goodsCollection = client.db("test").collection("goods");
+   // const periodCollection = client.db("test").collection("period");
+
+    const mongoCollection = client.db(config.epicDev.db).collection(config.epicDev.collectionContents);
     // perform actions on the collection object
-    periodCollection.insertMany(periodOutputArr);
-    goodsCollection.insertMany(goodsOutputArr);
+    mongoCollection.insertMany(periodOutputArr);
+    mongoCollection.insertMany(goodsOutputArr);
+   // goodsCollection.insertMany(goodsOutputArr);
     client.close();
 });
