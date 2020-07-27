@@ -83,6 +83,7 @@ function exportData() {
 * @return {string} parsed JSON object 
 ***/
 function exportSheetData() {
+  Logger.clear();
   const spreadsheet = SpreadsheetApp.getActive();
   const sheet = spreadsheet.getActiveSheet();
   const headerRows = 1;
@@ -97,4 +98,5 @@ function exportSheetData() {
     let payload = JSON.stringify(formData);
     Logger.log(payload);
   }
+  Browser.msgBox(Logger.getLog());
 }
