@@ -10,6 +10,15 @@ var data;
 * @param  {string} colName The name(first row data) of column
 * @return {number} col The converted number 
 ***/
+
+function initMenu(){
+  var ui = SpreadsheetApp.getUi();
+  var menu = ui.createMenu("RB Script");
+  menu.addItem("exportDataMenu", "exportData");
+  menu.addToUi();
+}
+
+
 function getCol(colName) {
   var col = data[0].indexOf(colName);
   if (col != -1) {
