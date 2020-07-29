@@ -4,6 +4,10 @@ import { jsonFileWriter } from './jsonwriter';
 import goodsJSON from '../data/goods.json';
 import periodJSON from "../data/period.json";
 import dbdata from '../data/accountdata.json'
+
+
+const MongoClient = require("mongodb").MongoClient;
+
 class OutputSample{
     id: number;
     date: string;
@@ -33,7 +37,7 @@ class OutputSample{
 let goodsOutputArr: OutputSample[] = [];
 let periodOutputArr: OutputSample[] = [];
 //console.log(_.filter(tmp, _.matches({name:'화'}))); //lodash function
-const sampleFunction = (data: any[]) => {     //화살표 함수
+const sampleFunction = async (data: any[]) => {     //화살표 함수
     
     //console.log(_.filter(tag, _.matches({name: '유모차'}))) // 해당 tag array 내에서 name 값이 유모차인 값을 필터
     let outputArr: OutputSample[] = [];
@@ -59,35 +63,42 @@ const sampleFunction = (data: any[]) => {     //화살표 함수
             tags.push(now.Tag1);
             
         let tmp = new OutputSample(now.category0, now.CreatedAt, now.UpdatedAt,
-            site, now.fullUrl, {rendered: site +" "+ now.searchKeyword},
+            site, now.fullUrl, {rendered: now.title},
             content, 0, category, tags, now.thumbnailUrl);
         
         outputArr.push(tmp);
-        //console.log(tmp);
+        // console.log(tmp);
     }
     // TODO: if you want to File Output, erase this Annotation
     //jsonFileWriter('./', 'output', outputArr);
     return outputArr;
 }
-goodsOutputArr = sampleFunction(goodsJSON); //goods parsed data will be stored at outputArr
-periodOutputArr = sampleFunction(periodJSON);//sampleFunction(periodJSON); //period parsed data will be stored at outputArr
 
- //TODO: mongoDB ATLAS connecting job
-const MongoClient = require("mongodb").MongoClient;
-const uri = config.epicDev.url;
+// console.log(goodsOutputArr.length);
+// console.log(periodOutputArr.length);
+const uploadMongo = async () => {
+    goodsOutputArr = await sampleFunction(goodsJSON); //goods parsed data will be stored at outputArr
+    periodOutputArr = await sampleFunction(periodJSON); //period parsed data will be stored at outputArr
+    
+    const uri = config.epicDev.url;
 
-// const uri = "mongodb+srv://daniel:" + dbdata.password + 
-// "@cluster0.qp0wy.mongodb.net/test?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true });
+    // const uri = "mongodb+srv://daniel:" + dbdata.password +
+    //     "@cluster0.qp0wy.mongodb.net/test?retryWrites=true&w=majority";
+    const client = await MongoClient.connect(uri, { useNewUrlParser: true });
+    // client.connect(async (err) => {
+    //     // const goodsCollection = client.db("test").collection("goods");
+    //     // const periodCollection = client.db("test").collection("period");
 
-client.connect((err) => {
-   // const goodsCollection = client.db("test").collection("goods");
-   // const periodCollection = client.db("test").collection("period");
-
-    const mongoCollection = client.db(config.epicDev.db).collection(config.epicDev.collectionContents);
+    const mongoCollection = await client.db(config.epicDev.db).collection(config.epicDev.collectionContents);
     // perform actions on the collection object
-    mongoCollection.insertMany(periodOutputArr);
-    mongoCollection.insertMany(goodsOutputArr);
-   // goodsCollection.insertMany(goodsOutputArr);
+    console.log(periodOutputArr.length);
+    console.log(goodsOutputArr.length);
+
+    await mongoCollection.insertMany(periodOutputArr);
+    await mongoCollection.insertMany(goodsOutputArr);
+
     client.close();
-});
+}
+
+
+uploadMongo();
