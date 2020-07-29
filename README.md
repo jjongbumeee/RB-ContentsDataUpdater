@@ -2,12 +2,22 @@
 1. [/src/index.ts](https://github.com/epicmobile18/RB-ContentsDataUpdater/blob/master/src/index.ts) <img src="https://img.shields.io/badge/status-complete-green" align = "center"/>
   - typescript 코드를 이용하여 로컬의 ExportedData를 아래의 sampleoutput형태로 변경하여 출력하는 작업 
   - sampleoutput 형태의 output 데이터를 MongoDB에 업로드 하는 작업 완료
+  - **실행 방법**
+    > yarn dev  
+    - 아래 설명되어 있는 wsl 환경 설정 이후 프로젝트 디렉토리에서 위 명령어 실행하시면 됩니다.
+    
+  
 2. [/appsScript.gs](https://github.com/epicmobile18/RB-ContentsDataUpdater/blob/master/appsScript.gs) <img src="https://img.shields.io/badge/status-ready-yellow" align = "center"/>
   - Google Apps script를 이용하여 Node.js를 거치지 않고 바로 데이터를 파싱할 수 있도록 하는 작업 완료
   - `exportData`는 outputsample 형태로 출력하는 메소드
   - `exportSheetData`는 데이터를 가공하지 않고 json 형식으로 출력하는 메소드
   - 두 가지 기능 모두 `initMenu` 실행시 GSheet 메뉴에서 선택할 수 있도록 코드 작성 완료
-  - MongoDB에 insert하는 부분은 아직 구현하지 않음 
+  - MongoDB에 insert하는 부분은 아직 구현하지 않음
+  - **실행 방법**
+    - 해당 코드는 *"레디베이비-조사자료-콘텐츠데이터"* 파일에 연결된 스크립트 편집기에 업로드 되어있습니다. (또는 사용을 원하시는 스크립트 편집기에 복사 해주세요.)
+    - 해당 문서에 접근하셔서 *도구 - 스크립트 편집기*로 접속하시면 해당 메소드들을 실행할 수 있습니다.
+    - 파싱 결과는 스크립트 편집기의 *보기 - 로그*를 선택하셔야 볼 수 있습니다.
+    - 또는 [Apps Script 대시보드](https://script.google.com/home/projects/1zJqA3cGaBHupIo2tj31cNeTGEWcPCtTFb_DB_SkFHSlYNPz7NB7fcpPO/executions?run_as=1)에서 json 형태로 포맷팅된 로그를 편하게 보실 수 있습니다.
 
 # export sheet
 
