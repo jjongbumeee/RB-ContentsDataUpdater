@@ -1,3 +1,14 @@
+# 프로젝트 진행상황  
+1. [/src/index.ts](https://github.com/epicmobile18/RB-ContentsDataUpdater/blob/master/src/index.ts) <img src="https://img.shields.io/badge/status-complete-green" align = "center"/>
+  - typescript 코드를 이용하여 로컬의 ExportedData를 아래의 sampleoutput형태로 변경하여 출력하는 작업 
+  - sampleoutput 형태의 output 데이터를 MongoDB에 업로드 하는 작업 완료
+2. [/appsScript.gs](https://github.com/epicmobile18/RB-ContentsDataUpdater/blob/master/appsScript.gs) <img src="https://img.shields.io/badge/status-ready-yellow" align = "center"/>
+  - Google Apps script를 이용하여 Node.js를 거치지 않고 바로 데이터를 파싱할 수 있도록 하는 작업 완료
+  - `exportData`는 outputsample 형태로 출력하는 메소드
+  - `exportSheetData`는 데이터를 가공하지 않고 json 형식으로 출력하는 메소드
+  - 두 가지 기능 모두 `initMenu` 실행시 GSheet 메뉴에서 선택할 수 있도록 코드 작성 완료
+  - MongoDB에 insert하는 부분은 아직 구현하지 않음 
+
 # export sheet
 
 staticContents_품목7가지(앱 주요 물품)
@@ -7,7 +18,7 @@ staticContents_시기
 <hr/>
 
 ## sampleoutput
-```
+```json
 {
 "id": 5900,
     "date": "2020-07-15T15:58:33",  //생성 시간 date
